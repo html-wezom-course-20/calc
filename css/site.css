@@ -1,0 +1,41 @@
+html {
+	font-family: Roboto, sans-serif;
+}
+
+body {
+	margin: 0;
+	background-color: #ccc;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
+	height: 0;
+}
+
+.section {
+	padding: 20px 0;
+}
+
+.container {
+	max-width: 1440px;
+	min-width: 640px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.bg-white {
+	background-color: #fff;
+}

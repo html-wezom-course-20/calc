@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Калькулятор</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="css/module-grid.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/calc.css">
+	<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<div class="section">
+	<div class="container bg-white">
+
+		<form class="calc js-calc">
+			<h2>Калькулятор</h2>
+			<div class="module-grid module-grid--gutters">
+				<div class="module-grid__cell-5">
+					<input type="text"
+						   class="input js-input-x"
+						   placeholder="X">
+				</div>
+				<div class="module-grid__cell-2">
+					<select class="select js-operator">
+						<option value="addition">+</option>
+						<option value="subtract">-</option>
+						<option value="multiple">*</option>
+						<option value="division">/</option>
+					</select>
+				</div>
+				<div class="module-grid__cell-5">
+					<input type="text"
+						   class="input js-input-y"
+						   placeholder="Y">
+				</div>
+			</div>
+			<div class="module-grid module-grid--gutters">
+				<div class="module-grid__cell-3">
+					<button type="submit"
+							class="button button--full-width button--success">
+						Calc
+					</button>
+				</div>
+				<div class="module-grid__cell-3">
+					<button type="button"
+							class="button button--full-width button--success"
+							onclick="console.log(88)">
+						button
+					</button>
+				</div>
+				<div class="module-grid__cell-3">
+					<button type="reset"
+							class="button button--full-width button--danger">
+						Reset
+					</button>
+				</div>
+				<div class="module-grid__cell-6">
+					<input type="text"
+						   class="input js-input-result"
+						   readonly
+						   placeholder="Результат">
+				</div>
+			</div>
+		</form>
+
+		<form class="calc js-calc">
+			<h2>Калькулятор</h2>
+			<div class="module-grid module-grid--gutters">
+				<div class="module-grid__cell-5">
+					<input type="text"
+						   class="input js-input-x"
+						   placeholder="X">
+				</div>
+				<div class="module-grid__cell-2">
+					<select class="select js-operator">
+						<option value="addition">+</option>
+						<option value="subtract">-</option>
+						<option value="multiple">*</option>
+						<option value="division">/</option>
+					</select>
+				</div>
+				<div class="module-grid__cell-5">
+					<input type="text"
+						   class="input js-input-y"
+						   placeholder="Y">
+				</div>
+			</div>
+			<div class="module-grid module-grid--gutters">
+				<div class="module-grid__cell-3">
+					<button type="submit"
+							class="button button--full-width button--success">
+						Calc
+					</button>
+				</div>
+				<div class="module-grid__cell-3">
+					<button type="reset"
+							class="button button--full-width button--danger">
+						Reset
+					</button>
+				</div>
+				<div class="module-grid__cell-6">
+					<input type="text"
+						   class="input js-input-result"
+						   readonly
+						   placeholder="Результат">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/calc.js"></script>
+</body>
+</html>
